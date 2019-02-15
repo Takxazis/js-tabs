@@ -1,0 +1,36 @@
+.divTab ul li{
+    list-style: none;
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px 15px;
+    font-weight: 500;
+}
+
+.divTab ul li:hover{
+    background-color: gold;
+    color: black;
+    font-weight: 400;
+}
+
+.divTab ul li.active{
+    background-color: red;
+}
+
+.divTab .text{
+display: none;
+background-color:gray;
+border-radius: 10px 10px;
+padding: 50px;
+margin-left: 15px;
+max-width: 300px;
+max-height: 300px;   
+}
+
+.divTab .text.active{
+    display: block;
+}
+
+
+
