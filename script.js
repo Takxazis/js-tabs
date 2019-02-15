@@ -20,3 +20,5 @@ $(function () {
         }
     })
 });
+
+console.log("testing git");
